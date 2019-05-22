@@ -1,0 +1,160 @@
+/* *{
+    margin:0;
+    padding:0;
+} */
+
+html, body {
+    height: 100%;
+    margin:0;
+    background-color: #efeee7;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.content {
+    min-height: 100%;
+    margin-bottom:-120px;
+}
+
+.content::after{
+    content:"";
+    display:block;
+}
+
+footer, .content::after{
+    padding: 30px 0;
+    height: 120px;
+    position: relative;
+    clear: both;
+    text-align: center;
+    color: #ffffff;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+}
+
+p { text-align: justify;
+    line-height: 1.8;
+}
+
+/* Name header */
+header{
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: xx-large;
+  padding: 30px;
+  width: 30%;
+  border: 2px solid #cccccc;
+}   
+
+/* Upper nav bar */
+ul {
+    list-style-type: none;
+    margin-right: 70px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color:#111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+}
+
+li a:hover:not(.active) {
+    background-color: #4aaaa5;
+}
+
+h2 {
+    font-size: 35px;
+    color: #4aaaa5;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 30px;
+    border-bottom: 3px solid #dddddd;
+}
+.wrapper {
+    margin:0 auto 0 auto;
+    width: 960px;
+    padding: 30px;
+    background-color: white;
+    min-height: 100%;
+    margin-bottom:30%;
+}
+
+#bio-image {
+    float: left;
+    padding: 0 20px 15px 0;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: medium;
+    cursor: pointer;
+}
+input[type=text] {
+        width: 100%;
+        padding: 15px 20px;
+        margin: 15px 0;
+        box-sizing: border-box;
+}
+#message {
+    height: 200px;
+    width: 100%;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    width: 182px;
+    height: 300px;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+/* For mobile phones */
+[col*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 640px) {
+  nav, ul { text-align: center;
+    } 
+}
+
+/* 
+For tablets
+@media only screen and (min-width: 768px){
+
+}
+For desktop
+@media only screen and (min-width: 960px){
+    
+} */
