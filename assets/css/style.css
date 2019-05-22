@@ -166,11 +166,32 @@ input[type=text] {
 }
 
 /* 
-For tablets
+For tablets */
 @media only screen and (min-width: 768px){
 
+   ul{
+        max-width:100%;
+    }
+    .wrapper,
+    #content {
+        max-width: 90%;
+    }
+    #bio-image {
+        float: none;
+        width:350px;
+    }
+    p {
+        margin-top: 40px;
+        max-width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+
 }
-For desktop
+
+
+/* For desktop
 @media only screen and (min-width: 960px){
     
-} */
+}  */
