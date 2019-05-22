@@ -153,6 +153,7 @@ input[type=text] {
     }
     #bio-image {
         float: none;
+        width:350px;
     }
     p {
         margin-top: 40px;
